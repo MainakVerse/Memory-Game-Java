@@ -18,31 +18,7 @@
   <td>
    <h2>ALGORITHM</h2>
    <p>The algorithm for the Memory Game can be summarized in a few key steps:
-
-Initialization:
-
-Create an array of pairs of cards (e.g., images or symbols). Shuffle the array randomly. Display the shuffled cards face down.
-
-Player Turn:
-A player selects two cards to flip. 
-
-Check if the two selected cards match:
-
-If they match: 
-Remove the pair from play. 
-Allow the player to take another turn.
-
-If they do not match:
-Flip the cards back face down. 
-Pass the turn to the next player.
-
-End of Game:
-The game ends when all pairs are matched.
-The player with the most pairs collected is declared the winner.
-
-Optimal Strategy:
-Players should remember the positions of previously flipped cards to maximize their chances of finding matches.
-Advanced strategies may involve dynamic programming techniques to analyze optimal moves based on remaining cards</p>
+   The algorithm for the Memory Game consists of several essential steps. First, an array of paired cards, such as images or symbols, is created and shuffled randomly before being displayed face down. During a player's turn, they select two cards to flip over and check for a match. If the cards match, the pair is removed from play, and the player is granted another turn. Conversely, if there is no match, the cards are flipped back face down, and the turn passes to the next player. The game concludes when all pairs have been matched, with the player who collected the most pairs declared the winner. To enhance their chances of success, players should remember the positions of previously flipped cards. More advanced strategies may incorporate dynamic programming techniques to evaluate optimal moves based on the remaining cards.</p>
   </td>
  </tr>
 </table>
