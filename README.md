@@ -21,40 +21,27 @@
 
 Initialization:
 
-Create an array of pairs of cards (e.g., images or symbols).
-
-Shuffle the array randomly.
-
-Display the shuffled cards face down.
+Create an array of pairs of cards (e.g., images or symbols). Shuffle the array randomly. Display the shuffled cards face down.
 
 Player Turn:
-
-A player selects two cards to flip.
+A player selects two cards to flip. 
 
 Check if the two selected cards match:
 
-If they match:
-
-Remove the pair from play.
-
+If they match: 
+Remove the pair from play. 
 Allow the player to take another turn.
 
 If they do not match:
-
-Flip the cards back face down.
-
+Flip the cards back face down. 
 Pass the turn to the next player.
 
 End of Game:
-
 The game ends when all pairs are matched.
-
 The player with the most pairs collected is declared the winner.
 
 Optimal Strategy:
-
 Players should remember the positions of previously flipped cards to maximize their chances of finding matches.
-
 Advanced strategies may involve dynamic programming techniques to analyze optimal moves based on remaining cards</p>
   </td>
  </tr>
